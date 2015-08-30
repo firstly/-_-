@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF2C96061B9327BE00C50ADD /* ObsessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2C96051B9327BE00C50ADD /* ObsessionViewController.m */; };
+		BF2C96091B932A6E00C50ADD /* ObsesstionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2C96081B932A6E00C50ADD /* ObsesstionCell.m */; };
+		BF2C960D1B932CA000C50ADD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2C960C1B932CA000C50ADD /* DetailViewController.m */; };
 		BF3AF3C81B6B8E9300796087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3AF3C71B6B8E9300796087 /* main.m */; };
 		BF3AF3CB1B6B8E9300796087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3AF3CA1B6B8E9300796087 /* AppDelegate.m */; };
 		BF3AF3CE1B6B8E9300796087 /* __.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF3AF3CC1B6B8E9300796087 /* __.xcdatamodeld */; };
-		BF3AF3D11B6B8E9300796087 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3AF3D01B6B8E9300796087 /* ViewController.m */; };
 		BF3AF3D41B6B8E9300796087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3AF3D21B6B8E9300796087 /* Main.storyboard */; };
 		BF3AF3D61B6B8E9300796087 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3AF3D51B6B8E9300796087 /* Images.xcassets */; };
 		BF3AF3D91B6B8E9300796087 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3AF3D71B6B8E9300796087 /* LaunchScreen.xib */; };
 		BF3AF3E51B6B8E9300796087 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3AF3E41B6B8E9300796087 /* __Tests.m */; };
+		BF911BC21B9331B800100115 /* ObssestionTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF911BC11B9331B800100115 /* ObssestionTextView.m */; };
+		BF911BCB1B934B6500100115 /* Something.m in Sources */ = {isa = PBXBuildFile; fileRef = BF911BCA1B934B6500100115 /* Something.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +32,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF2C96041B9327BE00C50ADD /* ObsessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObsessionViewController.h; sourceTree = "<group>"; };
+		BF2C96051B9327BE00C50ADD /* ObsessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObsessionViewController.m; sourceTree = "<group>"; };
+		BF2C96071B932A6E00C50ADD /* ObsesstionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObsesstionCell.h; sourceTree = "<group>"; };
+		BF2C96081B932A6E00C50ADD /* ObsesstionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObsesstionCell.m; sourceTree = "<group>"; };
+		BF2C960B1B932CA000C50ADD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BF2C960C1B932CA000C50ADD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		BF3AF3C21B6B8E9300796087 /* 大创.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "大创.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3AF3C61B6B8E9300796087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF3AF3C71B6B8E9300796087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF3AF3C91B6B8E9300796087 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF3AF3CA1B6B8E9300796087 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BF3AF3CD1B6B8E9300796087 /* __.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __.xcdatamodel; sourceTree = "<group>"; };
-		BF3AF3CF1B6B8E9300796087 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF3AF3D01B6B8E9300796087 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BF3AF3D31B6B8E9300796087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF3AF3D51B6B8E9300796087 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BF3AF3D81B6B8E9300796087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BF3AF3DE1B6B8E9300796087 /* 大创Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "大创Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3AF3E31B6B8E9300796087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF3AF3E41B6B8E9300796087 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		BF911BC01B9331B800100115 /* ObssestionTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObssestionTextView.h; sourceTree = "<group>"; };
+		BF911BC11B9331B800100115 /* ObssestionTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObssestionTextView.m; sourceTree = "<group>"; };
+		BF911BC91B934B6500100115 /* Something.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Something.h; path = ../Something.h; sourceTree = "<group>"; };
+		BF911BCA1B934B6500100115 /* Something.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Something.m; path = ../Something.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF2C960A1B932C4A00C50ADD /* Obsesstion */ = {
+			isa = PBXGroup;
+			children = (
+				BF911BC91B934B6500100115 /* Something.h */,
+				BF911BCA1B934B6500100115 /* Something.m */,
+				BF2C96071B932A6E00C50ADD /* ObsesstionCell.h */,
+				BF2C96081B932A6E00C50ADD /* ObsesstionCell.m */,
+				BF2C96041B9327BE00C50ADD /* ObsessionViewController.h */,
+				BF2C96051B9327BE00C50ADD /* ObsessionViewController.m */,
+				BF2C960B1B932CA000C50ADD /* DetailViewController.h */,
+				BF2C960C1B932CA000C50ADD /* DetailViewController.m */,
+				BF911BC01B9331B800100115 /* ObssestionTextView.h */,
+				BF911BC11B9331B800100115 /* ObssestionTextView.m */,
+			);
+			name = Obsesstion;
+			sourceTree = "<group>";
+		};
 		BF3AF3B91B6B8E9300796087 = {
 			isa = PBXGroup;
 			children = (
@@ -85,9 +114,8 @@
 			children = (
 				BF3AF3C91B6B8E9300796087 /* AppDelegate.h */,
 				BF3AF3CA1B6B8E9300796087 /* AppDelegate.m */,
-				BF3AF3CF1B6B8E9300796087 /* ViewController.h */,
-				BF3AF3D01B6B8E9300796087 /* ViewController.m */,
 				BF3AF3D21B6B8E9300796087 /* Main.storyboard */,
+				BF2C960A1B932C4A00C50ADD /* Obsesstion */,
 				BF3AF3D51B6B8E9300796087 /* Images.xcassets */,
 				BF3AF3D71B6B8E9300796087 /* LaunchScreen.xib */,
 				BF3AF3CC1B6B8E9300796087 /* __.xcdatamodeld */,
@@ -222,10 +250,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2C96061B9327BE00C50ADD /* ObsessionViewController.m in Sources */,
 				BF3AF3CE1B6B8E9300796087 /* __.xcdatamodeld in Sources */,
 				BF3AF3CB1B6B8E9300796087 /* AppDelegate.m in Sources */,
-				BF3AF3D11B6B8E9300796087 /* ViewController.m in Sources */,
+				BF2C96091B932A6E00C50ADD /* ObsesstionCell.m in Sources */,
+				BF911BCB1B934B6500100115 /* Something.m in Sources */,
+				BF911BC21B9331B800100115 /* ObssestionTextView.m in Sources */,
 				BF3AF3C81B6B8E9300796087 /* main.m in Sources */,
+				BF2C960D1B932CA000C50ADD /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +448,7 @@
 				BF3AF3EA1B6B8E9300796087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF3AF3EB1B6B8E9300796087 /* Build configuration list for PBXNativeTarget "大创Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +457,7 @@
 				BF3AF3ED1B6B8E9300796087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
